@@ -1,6 +1,19 @@
 .italic{
   font-style: italic;
 }
+body{
+  background-color: rgb(134, 220, 223);
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  line-height: 20px;
+}
 img {
   border-radius: 10%;
 }
@@ -26,7 +39,7 @@ h1{
 h2{
   font-size: large;
   font-family: monospace;
-  color:rgb(207, 204, 204);
+  color:rgb(255, 255, 255);
   text-shadow: 2px 2px #000000;
   background-color: dodgerblue;
   font-weight: 900;
@@ -38,11 +51,17 @@ h2{
 }
 p{
   text-align: left;
-  margin: 25px;
+  margin: 25px 25px;
   line-height: 20px;
 }
 ul{
   list-style: square inside;
   margin: 25px;
   line-height: 20px;
+}
+#foods{
+  border-width: 5px;
+  border-color: cornsilk;
+  border-style: dashed;
+  margin: 0 300px;
 }
