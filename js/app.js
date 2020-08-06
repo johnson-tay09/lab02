@@ -51,17 +51,20 @@ function face(){
 }
 face();
 
-// var clap= prompt('Did you clap your hands?');
-// // console.log('User clapped their hands? ' + clap.toLowerCase());
-// if (clap.toLowerCase() === 'y' || clap.toLowerCase() === 'yes'){
-//   alert('Correct! That was loud!');
-//   //increases total correct answers count by 1
-//   totalCorrect++;
-// } else if (clap.toLowerCase() === 'n' || clap.toLowerCase() === 'no'){
-//   alert('Incorrect! ' + userName + ', don\'t tell me you missed!');
-// } else {
-//   alert('Please enter y or n');
-// }
+function clap(){
+  var clap= prompt('Did you clap your hands?');
+  // console.log('User clapped their hands? ' + clap.toLowerCase());
+  if (clap.toLowerCase() === 'y' || clap.toLowerCase() === 'yes'){
+    alert('Correct! That was loud!');
+    //increases total correct answers count by 1
+    totalCorrect++;
+  } else if (clap.toLowerCase() === 'n' || clap.toLowerCase() === 'no'){
+    alert('Incorrect! ' + userName + ', don\'t tell me you missed!');
+  } else {
+    alert('Please enter y or n');
+  }
+}
+clap();
 
 // var stomp= prompt('Did you stomp your feet?');
 // // console.log('User stomped their feet? ' + stomp.toLowerCase());
