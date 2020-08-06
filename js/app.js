@@ -21,18 +21,22 @@ function userHappy(){
 }
 userHappy();
 
-// var knowIt= prompt('Do you know it?');
-// // console.log('User knows it? ' + knowIt.toLowerCase());
-// if (knowIt.toLowerCase() === 'y' || knowIt.toLowerCase() === 'yes'){
-//   alert('Correct! You know what\'s up!');
-//   //increases total correct answers count by 1
-//   totalCorrect++;
-// } else if (knowIt.toLowerCase() === 'n' || knowIt.toLowerCase() === 'no'){
-//   alert('Incorrect, you gon learn today ' + userName + ' !');
-// } else {
-//   alert('Please enter y or n');
-// }
+function know(){
+  var knowIt= prompt('Do you know it?');
+  // console.log('User knows it? ' + knowIt.toLowerCase());
+  if (knowIt.toLowerCase() === 'y' || knowIt.toLowerCase() === 'yes'){
+    alert('Correct! You know what\'s up!');
+    //increases total correct answers count by 1
+    totalCorrect++;
+  } else if (knowIt.toLowerCase() === 'n' || knowIt.toLowerCase() === 'no'){
+    alert('Incorrect, you gon learn today ' + userName + ' !');
+  } else {
+    alert('Please enter y or n');
+  }
+}
+know();
 
+// function face()
 // var face= prompt('Does your face surely show it?');
 // // console.log('User\'s face surely shows it? ' + face.toLowerCase());
 // if (face.toLowerCase() === 'y' || face.toLowerCase() === 'yes'){
