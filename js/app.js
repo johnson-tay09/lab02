@@ -36,18 +36,20 @@ function know(){
 }
 know();
 
-// function face()
-// var face= prompt('Does your face surely show it?');
-// // console.log('User\'s face surely shows it? ' + face.toLowerCase());
-// if (face.toLowerCase() === 'y' || face.toLowerCase() === 'yes'){
-//   alert('Correct! What a face it is!');
-//   //increases total correct answers count by 1
-//   totalCorrect++;
-// } else if (face.toLowerCase() === 'n' || face.toLowerCase() === 'no'){
-//   alert('Incorrect! ' + userName + ' is a sad panda!');
-// } else {
-//   alert('Please enter y or n');
-// }
+function face(){
+  var face= prompt('Does your face surely show it?');
+  // console.log('User\'s face surely shows it? ' + face.toLowerCase());
+  if (face.toLowerCase() === 'y' || face.toLowerCase() === 'yes'){
+    alert('Correct! What a face it is!');
+    //increases total correct answers count by 1
+    totalCorrect++;
+  } else if (face.toLowerCase() === 'n' || face.toLowerCase() === 'no'){
+    alert('Incorrect! ' + userName + ' is a sad panda!');
+  } else {
+    alert('Please enter y or n');
+  }
+}
+face();
 
 // var clap= prompt('Did you clap your hands?');
 // // console.log('User clapped their hands? ' + clap.toLowerCase());
