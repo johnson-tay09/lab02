@@ -66,23 +66,27 @@ function clap(){
 }
 clap();
 
-// var stomp= prompt('Did you stomp your feet?');
-// // console.log('User stomped their feet? ' + stomp.toLowerCase());
-// if (stomp.toLowerCase() === 'y' || stomp.toLowerCase() === 'yes'){
-//   alert('Correct! Happy feet!');
-//   //increases total correct answers count by 1
-//   totalCorrect++;
-// } else if (stomp.toLowerCase() === 'n' || stomp.toLowerCase() === 'no'){
-//   alert('Incorrect !' + userName + ' get moving!');
-// } else {
-//   alert('Please enter y or n');
-// }
-// alert(userName + ', thank you for being happy and visiting my website!');
-// console.log('User chose spice level ' + numSpice);
+function stomp(){
+  var stomp= prompt('Did you stomp your feet?');
+  // console.log('User stomped their feet? ' + stomp.toLowerCase());
+  if (stomp.toLowerCase() === 'y' || stomp.toLowerCase() === 'yes'){
+    alert('Correct! Happy feet!');
+    //increases total correct answers count by 1
+    totalCorrect++;
+  } else if (stomp.toLowerCase() === 'n' || stomp.toLowerCase() === 'no'){
+    alert('Incorrect !' + userName + ' get moving!');
+  } else {
+    alert('Please enter y or n');
+  }
+  alert(userName + ', thank you for being happy and visiting my website!');
+
+}
+stomp();
 
 function spicy(){
   for(var i=0; i < 4; i++){
     var numSpice = parseInt(prompt('How spicy do I like my food out of 5 start?'));
+    console.log('User chose spice level ' + numSpice);
     if(numSpice === 4){
       alert('Correct!');
       //increases total correct answers count by 1
