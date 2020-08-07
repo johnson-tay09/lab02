@@ -16,18 +16,18 @@ ol {
 }
 img {
   border-radius: 10%;
-}
+ }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-  *{
+} 
+  \*{
     font-family: Arial, Helvetica, sans-serif;
   }
 h1{
-  font-size: x-large;
+  font-size: 3em;
   font-family: 'Times New Roman', Times, serif;
   color: dodgerblue;
   text-shadow: 2px 2px #ffffff;
@@ -37,31 +37,88 @@ h1{
   line-height: 2cm;
 }
 h2{
-  font-size: large;
+  font-size: 2em;
   font-family: monospace;
   color:rgb(255, 255, 255);
   text-shadow: 2px 2px #000000;
-  background-color: dodgerblue;
-  font-weight: 900;
-  text-align: left;
+  /* background-color: dodgerblue; */
+  font-weight: 200;
+  text-align: center;
   line-height: 30px;
-  margin-left:15px;
-  margin-right:15px;
-  text-indent: 10px;
-}
-p{
-  text-align: left;
-  margin: 25px 25px;
-  line-height: 20px;
+  width: auto;
+  margin: 0 auto;
+  /* text-indent: 10px; */
 }
 ul{
   list-style: square inside;
-  margin: 25px;
-  line-height: 20px;
+  text-decoration: underline;
+  
 }
 #foods{
-  border-width: 5px;
-  border-color: cornsilk;
-  border-style: dashed;
-  margin: 0 300px;
+  border: 3px dashed rgb(255, 255, 255);
+  padding: 10px;
+  background-color: rgb(160, 155, 233);
+  height: auto; 
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 30px; 
+}
+#bio{
+  border: 3px dashed rgb(255, 255, 255);
+  background-color: rgb(160, 155, 233);
+  /* height: auto; */
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 30px;
+}
+#education{
+  border: 3px dashed rgb(255, 255, 255);
+  padding: 10px;
+  background-color: rgb(160, 155, 233);
+  height: auto;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  /* display: inline-block; */
+}
+#jobXp{
+  border: 3px dashed rgb(255, 255, 255);
+  padding: 10px;
+  background-color: rgb(160, 155, 233);
+  height: auto;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  /* display:inline-block; */
+}
+#career{
+  border: 3px dashed rgb(255, 255, 255);
+  background-color: rgb(160, 155, 233);
+  /* height: auto; */
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 30px;
+}
+#pix{
+  /* border: 1px solid dodgerblue; */
+  /* background-color: rgb(160, 155, 233); */
+  /* height: auto; */
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  line-height: 30px;
 }
