@@ -12,7 +12,7 @@ function userHappy(){
   if (happy.toLowerCase() === 'y' || happy.toLowerCase() === 'yes' ){
     alert('Correct! You are the happiest!');
     //increases total correct answers count by 1
-    // totalCorrect++;
+    totalCorrect++;
   } else if (happy.toLowerCase() === 'n' || happy.toLowerCase() === 'no'){
     alert('Incorrect! Cheer up ' + userName);
   } else {
