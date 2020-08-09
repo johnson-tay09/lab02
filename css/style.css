@@ -1,124 +1,84 @@
-.italic{
-  font-style: italic;
-}
 body{
-  background-color: rgb(134, 220, 223);
-}
-ol {
-  display: block;
-  list-style-type: decimal;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 0;
-  margin-right: 0;
-  padding-left: 40px;
-  line-height: 20px;
-}
-img {
-  border-radius: 10%;
- }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} 
-  \*{
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 80%;
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: .05em;
+    background-color: #efefef;
   }
-h1{
-  font-size: 3em;
-  font-family: 'Times New Roman', Times, serif;
-  color: dodgerblue;
-  text-shadow: 2px 2px #ffffff;
-  background-color: rgb(207, 204, 204);
-  font-weight: 900;
-  text-align: center;
-  line-height: 2cm;
-}
-h2{
-  font-size: 2em;
-  font-family: monospace;
-  color:rgb(255, 255, 255);
-  text-shadow: 2px 2px #000000;
-  /* background-color: dodgerblue; */
-  font-weight: 200;
-  text-align: center;
-  line-height: 30px;
-  width: auto;
-  margin: 0 auto;
-  /* text-indent: 10px; */
-}
-ul{
-  list-style: square inside;
-  text-decoration: underline;
+  #page{
+    max-width: 1000px;
+    min-width: 700px;
+    margin: 10px auto 25px auto;
+    padding: 20px;
+    border: 4px double #000;
+    background-color:rgba(143, 173, 136, 1);  
+  }
+  h1{
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 2em;
+    width:400px;
+    margin: 10px auto 10px auto;
+    box-shadow: 5px 5px 5px #222222;
+    background-color:rgb(127, 156, 150);
+  }
+  h2{
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 1.5em;
+    width:300px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px #222222;
+    background-color:rgba(77, 124, 138, 1);
+    
+  }
+  p{
+    text-align: cetner;
+    width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: normal;
+  }
+  ol{
+    text-align: center;
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin: 0px auto 0px auto;
+    padding-right: 40px;
+    line-height: 16px; 
+  }
+  ul{
+    text-align: center;
+    list-style-position: inside;
+    list-style: square inside;
+    line-height: 16px;
+    margin: 0px auto 0px auto;
   
-}
-#foods{
-  border: 3px dashed rgb(255, 255, 255);
-  padding: 10px;
-  background-color: rgb(160, 155, 233);
-  height: auto; 
-  width: 350px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 30px; 
-}
-#bio{
-  border: 3px dashed rgb(255, 255, 255);
-  background-color: rgb(160, 155, 233);
-  /* height: auto; */
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  line-height: 30px;
-}
-#education{
-  border: 3px dashed rgb(255, 255, 255);
-  padding: 10px;
-  background-color: rgb(160, 155, 233);
-  height: auto;
-  width: 350px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 30px;
-  /* display: inline-block; */
-}
-#jobXp{
-  border: 3px dashed rgb(255, 255, 255);
-  padding: 10px;
-  background-color: rgb(160, 155, 233);
-  height: auto;
-  width: 350px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  line-height: 30px;
-  /* display:inline-block; */
-}
-#career{
-  border: 3px dashed rgb(255, 255, 255);
-  background-color: rgb(160, 155, 233);
-  /* height: auto; */
-  width: 600px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  line-height: 30px;
-}
-#pix{
-  /* border: 1px solid dodgerblue; */
-  /* background-color: rgb(160, 155, 233); */
-  /* height: auto; */
-  width: 900px;
-  margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 10px;
-  line-height: 30px;
-}
+  }
+  a{
+    color: rgb(0,0,0);
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  a:hover, a.on{
+    color: rgb(0, 0, 0);
+    background-color: rgb(203, 223, 144);
+  }
+  img{
+    border-radius: 10px;
+  }
+  #nav-bar{
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-top: 1px solid rgb(0,0,0);
+    border-bottom: 1px solid rgb(0,0,0);
+    text-align: center;  
+  }
+  #nav-bar li{
+    display: inline;
+    margin: 0px 3px;
+  }
+  #author{
+    font-style: italic;
+  }
+  
